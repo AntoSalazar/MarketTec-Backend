@@ -1,17 +1,17 @@
 FROM node:18-alpine
 
-# Establecer directorio de trabajo
+
 WORKDIR /app
 
-# Instalar dependencias
+# Install dependencies
 COPY package*.json ./
 RUN npm install
 
-# Copiar el resto del código
+# Copy the rest of the code
 COPY . .
 
-# Exponer el puerto
+# Expose the port the app runs on
 EXPOSE 3000
 
-# Comando para iniciar la app
+# Command to run the app
 CMD ["npm", "run", "dev"]
