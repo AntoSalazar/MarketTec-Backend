@@ -217,7 +217,9 @@ docker-compose -f docker-compose.prod.yml up -d
 
 ## 📝 API Documentation
 
-API documentation is available in the docs folder
+API documentation is available in the docs folder:
+```
+/docs/api
 ```
 
 ## 📱 Mobile App
