@@ -217,9 +217,7 @@ docker-compose -f docker-compose.prod.yml up -d
 
 ## 📝 API Documentation
 
-API documentation is available when the server is running:
-```
-http://localhost:3000/api/docs
+API documentation is available in the docs folder
 ```
 
 ## 📱 Mobile App
