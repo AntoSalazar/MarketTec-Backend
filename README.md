@@ -21,8 +21,8 @@ MarketTec is a mobile marketplace platform designed specifically for students at
 
 The backend follows a hexagonal architecture approach:
 
-...
-marketec-backend/
+
+```marketec-backend/
 ├── src/
 │   ├── api/                  # Adapters (primary) - REST controllers, routes, validators
 │   ├── application/          # Application services implementing use cases
@@ -37,9 +37,9 @@ marketec-backend/
 ├── Dockerfile.dev            # Development Dockerfile
 ├── Dockerfile                # Production Dockerfile
 ├── .env                      # Local environment variables (!!! IMPORTANT: Keep secure, don't commit secrets !!!)
-└── ...
+└── 
 
-
+```
 ## 🛠️ Getting Started
 
 ### Prerequisites
