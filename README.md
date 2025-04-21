@@ -21,7 +21,7 @@ MarketTec is a mobile marketplace platform designed specifically for students at
 
 The backend follows a hexagonal architecture approach:
 
-
+...
 marketec-backend/
 ├── src/
 │   ├── api/                  # Adapters (primary) - REST controllers, routes, validators
