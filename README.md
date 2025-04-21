@@ -1,4 +1,4 @@
-```markdown
+
 # MarketTec - Student Marketplace Platform
 
 MarketTec is a mobile marketplace platform designed specifically for students at Tecnológico Nacional de México (TecNM) campuses. The platform enables students to buy, sell, and exchange products and services within their campus community in a secure, verified environment.
@@ -21,7 +21,7 @@ MarketTec is a mobile marketplace platform designed specifically for students at
 
 The backend follows a hexagonal architecture approach:
 
-```
+
 marketec-backend/
 ├── src/
 │   ├── api/                  # Adapters (primary) - REST controllers, routes, validators
