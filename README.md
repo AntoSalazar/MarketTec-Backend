@@ -38,7 +38,7 @@ marketec-backend/
 ├── Dockerfile                # Production Dockerfile
 ├── .env                      # Local environment variables (!!! IMPORTANT: Keep secure, don't commit secrets !!!)
 └── ...
-```
+
 
 ## 🛠️ Getting Started
 
